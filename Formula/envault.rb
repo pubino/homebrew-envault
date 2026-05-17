@@ -3,7 +3,7 @@ class Envault < Formula
 
   desc "Pull secrets from LastPass or macOS Keychain into transient .env files"
   homepage "https://github.com/pubino/envault"
-  url "git@github.com:pubino/envault.git", tag: "v0.1.0"
+  url "ssh://git@github.com/pubino/envault.git", tag: "v0.1.0"
   license "MIT"
 
   depends_on "python@3.12"
