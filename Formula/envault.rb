@@ -7,6 +7,7 @@ class Envault < Formula
   version "0.1.1"
   license "MIT"
 
+  depends_on "rust" => :build
   depends_on "python@3.12"
 
   resource "annotated-types" do
